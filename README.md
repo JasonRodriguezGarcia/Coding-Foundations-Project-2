@@ -1,2 +1,2 @@
 # Coding-Foundations-Project-2
-Vass Camp
+Coding-Foundations-Project-2
