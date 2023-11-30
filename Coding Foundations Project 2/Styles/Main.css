@@ -63,3 +63,7 @@
         position: relative;
         width: 90%;
     }
+.lines {
+    background-color: hsl(227.37deg 12.26% 30.39%);
+    opacity: 45%;
+}
