@@ -1,0 +1,68 @@
+.headercontainer {
+    font-size: 16px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin: 10px 0 10px 0;
+}
+/*justify=horizontal, align=vertical */
+    .headercontainer > .logoimg {
+        height: 30px;
+        width: 160px;
+        margin: 10px 20px;
+    }
+    .headercontainer > .pensandsocontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: last baseline;
+    }
+    .headercontainer > .pensandsocontainer a:hover, .headercontainer > .pensandsocontainer span:hover {
+        background-color: hsl(227.37deg 12.26% 30.39%);
+    }
+    .headercontainer a{
+        color: white;
+        font-weight: 500;
+        padding: 0 4px;
+    }
+    .headercontainer > .penswrapper a{
+        display: flex;
+        align-items: last baseline;
+    }
+    .headercontainer > .rightbuttonswrapper {
+        display: flex;
+        align-items: last baseline;
+        margin: 5px 5px 5px 470px;
+        gap: 10px;
+    }
+    .headercontainer > .rightbuttonswrapper span{
+        color: green;
+        padding: 0 0 0 10px;
+    }
+    .headercontainer > .rightbuttonswrapper button {
+        background-color: hsl(222.86deg 13.73% 20%); 
+        border: none;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+        height: 50px;
+        padding: 0 10px
+    }
+    .headercontainer > .rightbuttonswrapper button:hover, .headercontainer > .rightbuttonswrapper > .icon > .iconbutton:hover  {
+        background-color: hsl(227.37deg 12.26% 30.39%);
+    }
+    .headercontainer > .rightbuttonswrapper > .icon > .iconbutton {
+        background-color: black;
+        color: #898d94;
+        font-size: 22px;
+    }
+    .headercontainer > .pensandsocontainer > .pensandso {
+        background-color:black;
+        color: yellow;
+        font-size: 14px;
+    }
+    .headercontainer > .pensandsocontainer > .pensandso a{
+        color: yellow;
+
+    }

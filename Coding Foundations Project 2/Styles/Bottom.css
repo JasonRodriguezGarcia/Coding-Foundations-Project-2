@@ -1,0 +1,25 @@
+.bottomcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.bottomcontainer > .bottombutt1 {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(222.86deg 13.73% 20%); 
+}
+    .bottomcontainer > .bottombutt1 button{
+        margin: 15px 0;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        background-color: hsl(222.86deg 13.73% 20%); 
+    }
+    .bottomcontainer > .bottombutt1 button:hover{
+        color: grey;
+    }
+
+    .bottomcontainer > .bottombutt1 span{
+        font-size: 22px;
+    }
