@@ -1,6 +1,7 @@
 .maincontainer {
-    background-color: hsl(227.37deg 12.26% 30.39%);
+/*    background-color: hsl(227.37deg 12.26% 30.39%);*/
     display: flex;
+    background: linear-gradient(to right, hsl(227.37deg 12.26% 30.39%), black)
 }
 .maincontainer > .leftcolumn {
     display: flex;
